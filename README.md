@@ -15,6 +15,7 @@ or
     $ bundle exec rake install
 
 ## Usage
+```ruby
      require 'totsuzen'
      
      puts "hoge".totsuzen
@@ -22,6 +23,7 @@ or
      fuga = "piyo"
      fuga.totsuzen!
      puts fuga
+```
 
 ## Contributing
 
