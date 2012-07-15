@@ -16,13 +16,13 @@ or
 
 ## Usage
 ```ruby
-     require 'totsuzen'
+ require 'totsuzen'
      
-     puts "hoge".totsuzen
+ puts "hoge".totsuzen
      
-     fuga = "piyo"
-     fuga.totsuzen!
-     puts fuga
+ fuga = "piyo"
+ fuga.totsuzen!
+ puts fuga
 ```
 
 ## Contributing
