@@ -1,4 +1,4 @@
-# Kaibun [![Build Status](https://secure.travis-ci.org/conmame/totsuzen.png)](http://travis-ci.org/conmame/totsuzen)
+# Totsuzen [![Build Status](https://secure.travis-ci.org/conmame/totsuzen.png)](http://travis-ci.org/conmame/totsuzen)
 
 Add Totsuzen Class to String Class.
 
