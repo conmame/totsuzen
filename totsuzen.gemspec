@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.rdoc_options  = ["--charset=UTF-8"]
   gem.required_ruby_version = '>= 1.9.0'
   gem.add_development_dependency('rake', '>=0.9.2.2')
-  gem.add_development_dependency('rspec', '>=2.9.0')
+  gem.add_development_dependency('rspec', '>=2.11.0')
 end

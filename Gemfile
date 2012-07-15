@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 gemspec
 group :development, :test do
   gem 'rake', '>=0.9.2.2'
-  gem 'rspec', '>=2.9.0'
+  gem 'rspec', '>=2.11.0'
 end
