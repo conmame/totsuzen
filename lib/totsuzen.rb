@@ -3,9 +3,9 @@ require "totsuzen/version"
 
 String.class_eval do
   def totsuzen
-    len = (self.length / 2).floor
+    len = self.length
     "＿" + ("人"*len) + "＿" + "\n" +
-      "＞" + self + "＜\n" +
+      "＞ " + self + " ＜\n" +
       "￣^" + ("Y^"*len) + "￣"
   end
 
@@ -13,3 +13,5 @@ String.class_eval do
     self.replace totsuzen
   end
 end
+puts "こんまめ".totsuzen
+puts "hoge".totsuzen
