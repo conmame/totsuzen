@@ -13,5 +13,3 @@ String.class_eval do
     self.replace totsuzen
   end
 end
-puts "こんまめ".totsuzen
-puts "hoge".totsuzen
