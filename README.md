@@ -33,5 +33,8 @@ or
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Thanks
+- yuya-takeyama
+
 ## LICENCE
 * Copyright © 2012 con_mame. See LICENSE.txt for further details.
