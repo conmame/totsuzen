@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # -*- coding:utf-8 -*-
-require 'rubygems'
-require 'bundler'
-Bundler.setup(:default)
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'totsuzen'
 require 'optparse'
 
