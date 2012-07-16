@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# -*- coding:utf-8 -*-
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+require 'totsuzen'
+require 'optparse'
+
+opt = OptionParser.new
+opt.version = Totsuzen::VERSION
+
+help =  "Usage: totsuzen <phrase to be totsuzenized>"
+opt.on('-h', '--help') { puts help; exit }
+
+argv = opt.parse!(ARGV)
+
+if argv[0]
+  puts argv[0].totsuzen
+else
+  puts help
+  exit 1
+end
