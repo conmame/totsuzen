@@ -25,6 +25,15 @@ or
  puts fuga
 ```
 
+or
+
+```sh
+% totsuzen hoge
+＿人人人人＿
+＞ hoge ＜
+￣^Y^Y^Y^Y^￣
+```
+
 ## Contributing
 
 1. Fork it
