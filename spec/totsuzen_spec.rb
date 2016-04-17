@@ -1,39 +1,49 @@
-# -*- coding:utf-8 -*-
-
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Totsuzen do
-  it { Totsuzen::VERSION.should eq '0.0.5' }
+  it { expect(Totsuzen::VERSION).to eq '0.0.5' }
 
   describe "totsuzen method" do
     it 'make totsuzen in English' do
-      "hoge".totsuzen.should == "＿人人人人＿
-＞ hoge ＜
-￣^Y^Y^Y^Y^￣"
+      t = <<-EOT
+＿人人人人＿
+＞　hoge　＜
+￣Y^Y^Y￣
+      EOT
+      expect("hoge".totsuzen).to eq t.chomp
     end
 
     it 'make totsuzen in Japanaes' do
-      "こんまめ".totsuzen.should == "＿人人人人＿
-＞ こんまめ ＜
-￣^Y^Y^Y^Y^￣"
+      t = <<-EOT
+＿人人人人人人＿
+＞　こんまめ　＜
+￣Y^Y^Y^Y^Y￣
+      EOT
+      expect("こんまめ".totsuzen).to eq t.chomp
     end
   end
 
   describe "totsuzen! method" do
     it 'make totsuzen! in English' do
       result = "hoge"
+      t = <<-EOT
+＿人人人人＿
+＞　hoge　＜
+￣Y^Y^Y￣
+      EOT
       result.totsuzen!
-      result.should == "＿人人人人＿
-＞ hoge ＜
-￣^Y^Y^Y^Y^￣"
+      expect(result).to eq t.chomp
     end
 
     it 'make totsuzen! in Japanes' do
       result = "こんまめ"
+      t = <<-EOT
+＿人人人人人人＿
+＞　こんまめ　＜
+￣Y^Y^Y^Y^Y￣
+      EOT
       result.totsuzen!
-      result.should == "＿人人人人＿
-＞ こんまめ ＜
-￣^Y^Y^Y^Y^￣"
+      expect(result).to eq t.chomp
     end
   end
 end
