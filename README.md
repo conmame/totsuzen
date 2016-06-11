@@ -3,7 +3,7 @@
 Add Totsuzen Class to String Class.
 
 ## Installation
-Require ruby version >= 1.9
+Require ruby version >= 2.1
 
     $ gem install totsuzen
     
@@ -44,6 +44,7 @@ or
 
 ## Thanks
 - yuya-takeyama
+- takano32
 
 ## LICENCE
 * Copyright © 2012 con_mame. See LICENSE.txt for further details.
