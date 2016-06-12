@@ -16,10 +16,10 @@ Gem::Specification.new do |gem|
   gem.name          = "totsuzen"
   gem.require_paths = ["lib"]
   gem.version       = Totsuzen::VERSION
-  gem.date          = %q{2012-09-08}
+  gem.date          = %q{2016-06-12}
   gem.rdoc_options  = ["--charset=UTF-8"]
   gem.bindir        = "bin"
-  gem.required_ruby_version = '>= 1.9.0'
+  gem.required_ruby_version = '>= 2.1.10'
   gem.add_development_dependency('rake', '>=0.9.2.2')
   gem.add_development_dependency('rspec', '>=2.11.0')
 end

@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Totsuzen do
-  it { expect(Totsuzen::VERSION).to eq '0.0.5' }
+  it { expect(Totsuzen::VERSION).to eq '0.0.6' }
 
   describe "totsuzen method" do
     it 'make totsuzen in English' do
